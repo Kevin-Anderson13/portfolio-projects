@@ -1,0 +1,273 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body a:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+#site-logo {
+    height: 50px;
+    padding: 40px 40px 25px 40px;
+}
+
+#header-mid {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#header-right {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    padding-left: 160px;
+}
+
+h4 {
+    font-weight: 100;
+    color: #655a50;
+    padding-top: 30px;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 18px;
+    color: #655a50;
+    padding-top: 15px;
+    padding-left: 250px
+}
+
+#upper-nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    min-height: 18px;
+    border: 1px solid rgba(101, 90, 80, .3);
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0px;
+}
+
+.upper-nav-truck {
+    width: 22px;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+
+.upper-nav-box {
+    width: 20px;
+    padding-right: 2px;
+}
+
+.upper-nav-list {
+    width: 15px;
+    padding-right: 2px;
+}
+
+.upper-nav-item {
+    padding: 8px 5px 5px 5px;
+}
+
+#upper-nav-rewards {
+    border: 1px solid rgba(101, 90, 80, .3);
+    border-top: none;
+    border-bottom: none;
+}
+
+.store-selector {
+    padding-bottom: 15px;
+}
+
+.store-selector img {
+    width: 30px;
+}
+
+#header-mid a {
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+#header-mid a:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    padding-left: 195px;
+}
+
+.sign-in img {
+    width: 30px;
+}
+
+.sign-in a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+}
+
+form {
+    padding: 10px 0px 12px 127px;
+}
+
+#search:placeholder-shown {
+    padding: 3px 90px 8px 3px;
+}
+
+#nav {
+    background-color: #e41720;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+#nav ul li {
+    border-left: 1px solid white;
+    padding: 8px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+}
+
+#nav ul li:last-child{
+    border-right: 1px solid white;
+}
+
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    color: #655a50;
+    margin-top: 25px;
+    margin: 25px;
+}
+
+.content-panel {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.panel-img {
+    width: 90px;
+    margin: 10px 0px 0px 55px;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #4b4a4b;
+}
+
+.panel-child {
+    width: 200px;
+    min-height: 290px;
+    border: 2px solid rgba(101, 90, 80, .3);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.panel-child p {
+    margin-top: 20px;
+}
+
+#in-store {
+    margin-top: 38px;
+}
+
+#fast-car {
+    width: 150px;
+    margin: 10px 0px 5px 25px;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.red-text {
+    color: #e41720;
+    font-weight: 900;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
+
+#banner-ads {
+    display: flex;
+    justify-content: center;
+}
+
+#main-banner {
+    width: 850px;
+    margin: 20px 0px 0px 8px;
+}
+
+#weekly-ad {
+    width: 230px;
+    min-height: 290px;
+    border: 2px solid rgba(101, 90, 80, .3);
+    border-radius: 5px;
+    padding: 8px;
+    min-height: 200px;
+    margin: 20px 0px 0px 20px 
+}
+
+#weekly-ad img {
+    width: 230px;
+}
+
+#weekly-ad p {
+    margin: 30px 0px 30px 0px;
+    font-size: 27px;
+    font-weight: 200;
+}
+
+button {
+    min-height: 20px;
+    background-color:#e41720;
+    border-radius: 4px;
+    margin: 0px 0px 0px 5px;
+    padding: 3px 15px 3px 15px;
+    border: none;
+}
+
+button {
+    color: white;
+    padding: 3px 10px 3px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    color: #4b4a4b;
+}

@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+h1{
+	padding: 20px;
+}
+
+form p{
+	display: flex;
+	justify-content: space-between;
+}
+
+form {
+	width: 300px;
+	margin: 20px;
+}
+
+table {
+	border: 1px solid black;
+}
+
+td {
+	background-color: white;
+	text-align: center;
+}
+
+th{
+	background-color: silver;
+	width: 150px;
+}
